@@ -1,0 +1,5 @@
+- [x] Confirmed web-only, local-first scope and visual reference.
+- [x] Built six tiers and 18 lessons, placement, three practice languages, four layouts, and adaptive drills.
+- [x] Built seven pages, shared typing engine, four games, local progress, and install/offline assets.
+- [x] Verified build, TypeScript, lint, six unit tests, desktop/mobile Chromium flows, and a production offline lesson/game/results flow.
+- [x] Ready for delivery on the assigned web preview port, 4200.
