@@ -3,6 +3,7 @@ import { Link, Route, Switch, useLocation } from "wouter";
 import { ArrowRight, Menu, Settings as Gear, X } from "lucide-react";
 import { MotionConfig } from "framer-motion";
 import { AgentFeedback, RunableBadge } from "@runablehq/website-runtime";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Provider } from "./components/provider";
 import Home from "./keycrown/home";
 import "./keycrown/install";
@@ -146,6 +147,7 @@ export default function App() {
       <Site />
       {import.meta.env.DEV && <AgentFeedback />}
       <RunableBadge />
+      <SpeedInsights />
     </Provider>
   );
 }
